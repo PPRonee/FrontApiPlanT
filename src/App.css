@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.Tcard {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+}
+.cardT {
+  margin: 5%;
+  padding: 2%;
+  width: auto;
+  border-radius: 15px;
+  background-color: #fff0df;
+  box-shadow: 3px 3px 3px black;
+}
+
+.imgP {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.nomen {
+  font-size: x-large;
+  font: bolder;
+}
+
+.price {
+  font-size: xx-large;
+  font: bolder;
+  color: #edb18e;
+  text-shadow: 2px 2px 2px black;
+}
+
+.title {
+  font-size: 4em;
+  font: bolder;
+}
+
+.hd {
+  background-color: #b4aaa9;
+  padding: 10px;
+  text-shadow: 3px 3px 3px gray;
+  box-shadow: 3px 3px 3px black;
+  margin-bottom: 60px;
+}
+
+body {
+  background-color: #ecdad1;
+}
+
+.ft {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
