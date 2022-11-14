@@ -26,7 +26,11 @@ function Affplante() {
       <div className="Tcard">
         {tabPlantes.map((tab) => (
           <div className="cardT">
-            <img className="imgP" src={tab?.url_picture} alt="" />
+            <img
+              className="imgP"
+              src={`http://localhost:8082/assets/${tab?.url_picture}`}
+              alt=""
+            />
 
             <p className="nomen">{tab?.name}</p>
             <p>
