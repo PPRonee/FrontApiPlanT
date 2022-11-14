@@ -48,7 +48,7 @@
   width: auto;
   border-radius: 15px;
   background-color: #fff0df;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.25);
 }
 
 .imgP {
@@ -56,7 +56,14 @@
   width: 100%;
   border-radius: 15px 15px 0px 0px;
   border-bottom: 1px solid gray;
+  
 }
+
+.cardT:hover{
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);   transition: 0.4s;
+     
+     border: 3px solid #b4aaa9;
+  }
 
 .nomen {
   font-size: x-large;
